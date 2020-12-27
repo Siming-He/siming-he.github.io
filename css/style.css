@@ -145,3 +145,24 @@ canvas {
   background-color: #ff2a6d;
 }
 
+.menu {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.menu:hover {
+  font-size: 2em; 
+  color: #05d9e8;
+  text-decoration: underline;
+  text-decoration-color: #ff2a6d;
+}
+
+@media screen and (max-width: 1000px){
+  .menu { 
+    font-size: 2em;
+    color: #05d9e8;
+    text-decoration: underline;
+    text-decoration-color: #ff2a6d;
+  }
+}
