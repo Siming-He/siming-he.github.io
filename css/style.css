@@ -25,9 +25,21 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-top: 0px;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  font-size: 180%;
+  color: #01012b;
+}
+
 p {
   margin-bottom: 0px;
   font-family: 'Forum', cursive;
+}
+
+.cardtext {
+  font-size: 20px; color: #01012b;
 }
 
 .darkpage {
@@ -117,5 +129,19 @@ canvas {
   left:0;
   z-index: -1;
   overflow-x: hidden;
+}
+
+@keyframes whietToPink {
+  from {color: rgb(209, 247, 255);}
+  to {color: #ff2a6d;}
+}
+
+@keyframes pinkToWhite {
+  from {color: #ff2a6d;}
+  to {color: rgb(209, 247, 255);}
+}
+
+#pro1:hover {
+  background-color: #ff2a6d;
 }
 
