@@ -15,10 +15,10 @@ I am originally from <a href="https://en.wikipedia.org/wiki/Xi%27an">Xi'an</a>, 
 I love swimming and am national second-level athlete in China. I also play tennis and soccer, and I was in my high soccer and tennis varsity team. Beside sports, I enjoy cooking, especially Sichuan and Shaanxi Cuisine. I also like reading random books during my free time.
 
 <div class="row">
-{% include about/timeline.html %}
+{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/timeline.html %}
 </div>
