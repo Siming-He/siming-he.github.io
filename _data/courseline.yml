@@ -1,9 +1,19 @@
-- title: Student, UPenn
-  from: 2020
-  to: Present
-  description: <I>Candidate for Bachelor of Science in Engineering (Computer and Information Science)</I><br><I>Candidate for Bachelor of Science in Economics (Statistics and Data Science)</I><br>GPA 3.97 / 4.0 &nbsp;&nbsp;&nbsp;&nbsp; Major GPA 4.0 / 4.0
+- title: Fall 2021 (6.5 Credit Unites)
+  from:
+  to:
+  description: <br><br><br><br><br><br>
 
-- title: Teacher, Access Engineering
-  from: 2020
-  to: Present
-  description: Planned lessons on web development and taught 20 high school students about HTML, CSS, and Javascript.
+- title: Spring 2021 (5 Credit Unites)
+  from:
+  to:
+  description: MATH 240 - Calculus III (Intro to Linear Algebra and Differential Equations)<br><br><br><br><br><br>
+
+- title: Fall 2020 (5.5 Credit Unites)
+  from:
+  to:
+  description: <br><br><br><br><br><br>
+
+- title: External Credit (5 Credit Unites)
+  from:
+  to:
+  description: MATH 104 - Calculus, Part I<br>MATH 114 - Calculus, Part II (Multivariable)<br>ECON 001 - Introduction to Micro Economics<br>ECON 002 - Introduction to Macro Economics<br>PHYS 102 - General Physics, Electromagnetism, Optics, and Modern Physics<br>PHYS 150 - Principles of Physics I, Mechanics and Wave Motion<br>EAS 024 - SAAST ROBOTICS PROGRAM
