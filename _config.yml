@@ -2,7 +2,7 @@
 title               : Siming He
 description         : >-
                       <h1>Siming He</h1>
-                      <h3>A Student, Researcher, Innovator at Penn, involving in robotics and machine learning research, and being passionate about expanding positive social impact of cutting-edge technology.</h3>
+                      <b>A Student, Researcher, Innovator at Penn, involving in robotics and machine learning research, and being passionate about expanding positive social impact of cutting-edge technology.</b>
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : Siming-He/siming-he.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : Siming-He/portfolYOU
@@ -23,7 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Siming He
-  image             : https://imgur.com/Tqn3744
+  image             : https://i.imgur.com/Tqn3744.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : siminghe@seas.upenn.edu
