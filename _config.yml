@@ -54,12 +54,13 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-
-### Collections ###
-collections:
   researches:
     output: true
     permalink: /researches/:name
+
+### Collections ###
+### collections:
+  
 
 ### Disqus ###
 disqus:
