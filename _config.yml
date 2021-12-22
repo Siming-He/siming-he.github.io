@@ -55,6 +55,11 @@ collections:
     output: true
     permalink: /projects/:name
 
+### Collections ###
+collections:
+  researches:
+    output: true
+    permalink: /researches/:name
 
 ### Disqus ###
 disqus:
@@ -80,6 +85,11 @@ defaults:
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
+  - scope:
+      path: ""
+      type: "researches"
+    values:
+      layout: "page"
 
 
 ### Exclude from processing ###
