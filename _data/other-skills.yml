@@ -1,11 +1,11 @@
 - name: Photoshop
-  percentage: 95
+  percentage: 85
   color: info
 
 - name: Adobe Illustrator
-  percentage: 90
+  percentage: 75
   color: success
 
 - name: Adobe Premiere Pro
-  percentage: 90
+  percentage: 65
   color: secondary

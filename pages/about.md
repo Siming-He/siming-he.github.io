@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi, I am **{{ site.author.name }}** :wave:<br><br>
-I am a sophomore studying <i>Computer and Information Science</i> and <i>Statistics and Data Science</i> at the Engineering School and the Wharton School of University of Pennsylvania respectively. My research interest is in the field of robotics, machine learning, and computer vision. I am currently a student researcher mentored by <a href="https://pratikac.github.io/">Pratik Chaudhari</a> in the <a href="https://www.grasp.upenn.edu/">GRASP Robotics Laboratory</a> I am also a research assistant in the <a href="http://fangyenlab.seas.upenn.edu/">Fang-Yen Laboratory</a> and work with Zihao(John) Li and <a href="https://directory.seas.upenn.edu/christopher-fang-yen/">Christopher Fang-Yen</a>. 
+I am a sophomore studying <i>Computer and Information Science</i> and <i>Statistics and Data Science</i> at the Engineering School and the Wharton School of University of Pennsylvania respectively. My research interest is in the field of robotics, machine learning, and computer vision. I am currently a student researcher mentored by <a href="https://pratikac.github.io/">Pratik Chaudhari</a> in the <a href="https://www.grasp.upenn.edu/">GRASP Robotics Laboratory</a>. I am also a research assistant in the <a href="http://fangyenlab.seas.upenn.edu/">Fang-Yen Laboratory</a> and work with Zihao(John) Li and <a href="https://directory.seas.upenn.edu/christopher-fang-yen/">Christopher Fang-Yen</a>. 
 <br><br>
 I am originally from <a href="https://en.wikipedia.org/wiki/Xi%27an">Xi'an</a>, a city with long history, in north-central China. I studied at Ridley College in Toronto during high school. 
 <br><br>
