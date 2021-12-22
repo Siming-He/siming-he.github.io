@@ -51,12 +51,12 @@ permalink: /blog/:title
 
 ### Collections ###
 collections:
-  projects:
-    output: true
-    permalink: /projects/:name
   researches:
     output: true
     permalink: /researches/:name
+  projects:
+    output: true
+    permalink: /projects/:name
 
 ### Collections ###
 ### collections:
