@@ -1,17 +1,19 @@
 - title: Fall 2021 (6.5 Credit Unites)
   from:
   to:
-  description: <br><br><br><br><br><br>
+  description: <ul><li>CIS 240 - Introduction to Computer Systems</li><li>CIS 520 - Machine Learning</li><li>CIS 581 - Computer Vision & Computational Photography</li><li>ESE 514 - Graph Neural Networks</li><li>BEPP 250 - Managerial Economics</li><li>ACCT 101 - Accounting & Financial Report</li><li>WH 101 - Business And You</li></ul>
+
 
 - title: Spring 2021 (5 Credit Unites)
   from:
   to:
-  description: MATH 240 - Calculus III (Intro to Linear Algebra and Differential Equations)<br><br><br><br><br><br>
+  description: <ul><li>CIS 121 - Programming Languages and Techniques II (Algorithms)</li><li>CIS 262 - Automata, Computability, and Complexity</li><li>MATH 240 - Calculus III (Intro to Linear Algebra and Differential Equations)</li><li>STAT 430 - Probability</li><li>WRIT 002 - Craft of Prose (Writing Seminar)</li></ul>
+
 
 - title: Fall 2020 (5.5 Credit Unites)
   from:
   to:
-  description: ANTH 026 - Behind the Iron Curtain<br>CIS 120 - Programming Languages and Techniques I<br>CIS 160 - Math Foundations of Computer Science<br>CIS 196 - Ruby on Rails Web Development<br>MGMT 101 - Introduction to Management (Pass/Fail)<br>URBS 237 - Berlin. History, Politics, Culture
+  description: <ul><li>CIS 120 - Programming Languages and Techniques I</li><li>CIS 160 - Math Foundations of Computer Science</li><li>CIS 196 - Ruby on Rails Web Development</li><li>URBS 237 - Berlin. History, Politics, Culture</li><li>ANTH 026 - Behind the Iron Curtain</li><li>MGMT 101 - Introduction to Management (Pass/Fail)</li></ul>
 
 - title: External Credit (5 Credit Unites)
   from:
