@@ -2,7 +2,7 @@
 layout: page
 title: Coursework
 permalink: /coursework/
-weight: 3
+weight: 4
 ---
 
 # **University of Pennsylvania**
