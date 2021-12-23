@@ -12,7 +12,7 @@ I am a sophomore studying <i>Computer and Information Science</i> and <i>Statist
 <br><br>
 I am originally from <a href="https://en.wikipedia.org/wiki/Xi%27an">Xi'an</a>, a city with long history, in north-central China. I studied at Ridley College in Toronto during high school. 
 <br><br>
-I love swimming and am national second-level athlete in China. I also play tennis and soccer, and I was in my high soccer and tennis varsity team. Beside sports, I enjoy cooking, especially Sichuan and Shaanxi Cuisine. I also like reading random books during my free time.
+I love swimming and am national second-level athlete in China. I also play tennis and soccer, and I was in my high soccer and tennis varsity teams. Beside sports, I enjoy cooking, especially Sichuan and Shaanxi Cuisine. I also like reading random books during my free time.
 
 <div class="row">
 {% include about/timeline.html %}
