@@ -41,7 +41,7 @@ We formulate the semantic map prediction as a hierarchical segmentation problem.
 
 ### Input:
 
-occupancy region: obtained by camera $$p_t$$
+occupancy region: obtained by camera <img src="https://latex.codecogs.com/gif.latex?p_t"/> 
 
 semantic segmentation: estimated by **UNet Encoder Decoder** $$\hat{s_t}$$ (In the end of UNet, the spatial dims are restored to make a prediction for each pixel in the input image.)
 
