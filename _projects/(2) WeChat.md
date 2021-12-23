@@ -6,15 +6,6 @@ description: This is a WeChat Mini program for Oakville Immigration & Education 
 ---
 
 # Canada Express Entry Scoring WeChat Mini Program
+This is a WeChat Mini program for Oakville Immigration & Education Consulting Inc. to assess and score clients' profile for skilled immigration. The program makes it more convinient for clients to assess their score. 158 clients have been using this tool to assess their scores.
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
-
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
-
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
-</p>
+<img src="https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/project/wechatdemo.gif"  loop=infinite>
