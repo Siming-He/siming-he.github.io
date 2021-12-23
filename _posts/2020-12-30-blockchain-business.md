@@ -3,7 +3,7 @@ title: Impact of Blockchain Applications on Trust in Business
 tags: [Blockchain, Business Ethics]
 style: 
 color: 
-description: Blockchain applications are considered as “trustless” machines, because they reduce business’s needs of trust in others. The “trustless” nature draws researchers’ attention on investigating the implications of blockchain in a business environment. From a view of business ethics, this paper aims at evaluating the impacts of blockchain applications on trust and business. 
+description: The “trustless” nature of blockchain draws researchers’ attention on investigating the implications of blockchain in business environments. From a view of business ethics, this paper aims at evaluating the impacts of blockchain applications on trust and business. 
 
 ---
 
