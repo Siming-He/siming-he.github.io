@@ -1,5 +1,5 @@
 ---
-name: Simple Tower Defense Game
+name: Drowsiness Detection with Machine Learning
 tools: [Python, Pytorch, Sklearn]
 image: https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/project/drowsy.png
 description: This is a machine learning project in which our team tries to detect drowsiness from videos.
