@@ -54,7 +54,7 @@ Top-down semantic&occupancy local region $$\hat{m_t}$$
 - learn to hallucinate unseen spatial configurations based on what is already observed
 - given predicted occupancy, we predict the final semantic region $$\hat{m_t}$$
 
-<img src="/Users/4321118/Library/Application Support/typora-user-images/image-20211122104338879.png" alt="image-20211122104338879" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/post/2021-10-3-learning-map-for-active-semantic-goal-nav/learning-map-for-active-semantic-goal-nav.png" style="zoom:50%;" />
 
 ## Uncertainty as an objective
 
