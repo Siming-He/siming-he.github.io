@@ -43,16 +43,16 @@ We formulate the semantic map prediction as a hierarchical segmentation problem.
 
 occupancy region: obtained by camera <img src="https://latex.codecogs.com/gif.latex?p_t"/> 
 
-semantic segmentation: estimated by **UNet Encoder Decoder** $$\hat{s_t}$$ (In the end of UNet, the spatial dims are restored to make a prediction for each pixel in the input image.)
+semantic segmentation: estimated by **UNet Encoder Decoder** <img src="https://latex.codecogs.com/gif.latex?\hat{s_t}"/> (In the end of UNet, the spatial dims are restored to make a prediction for each pixel in the input image.)
 
 ### Output:
 
-Top-down semantic&occupancy local region $$\hat{m_t}$$
+Top-down semantic&occupancy local region <img src="https://latex.codecogs.com/gif.latex?\hat{m_t}"/> 
 
 **Assume growth-truth semantic information is available**
 
 - learn to hallucinate unseen spatial configurations based on what is already observed
-- given predicted occupancy, we predict the final semantic region $$\hat{m_t}$$
+- given predicted occupancy, we predict the final semantic region <img src="https://latex.codecogs.com/gif.latex?\hat{m_t}"/>
 
 <img src="https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/post/2021-10-3-learning-map-for-active-semantic-goal-nav/learning-map-for-active-semantic-goal-nav.png" style="zoom:50%;" />
 
@@ -92,12 +92,12 @@ Defining a policy that outputs goal location as close as possible to a target cl
 
 S: agent's pose x and semantic predictions over time in the global map
 
-A: set of locations $$h\cdot w$$
+A: set of locations <img src="https://latex.codecogs.com/gif.latex?h\cdot w"/>
 
 O: RGB-D egocentric observation
 
 P: transition probabilities
 
-R: $$R(s,a)=D(s,c)-D(s',c)$$ where D is distance on the shortest path
+R: <img src="https://latex.codecogs.com/gif.latex?R(s,a)=D(s,c)-D(s',c)"/> where D is distance on the shortest path
 
 Select informative golas by leveraging the **prdicted class probabilities** and **uncertainty estimation** over map locations.
