@@ -1,5 +1,5 @@
 ---
-name: Algorithmic Trading Application
+name: Algorithmic Trading App
 tools: [Java, Java Swing, SQLite]
 image: https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/project/trading.png
 description: This is an algorithmic trading application developed for my client from McMaster University.

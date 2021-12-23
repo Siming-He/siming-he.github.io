@@ -1,5 +1,5 @@
 ---
-name: Canada Express Entry Scoring Program
+name: Canada Express Entry Scoring
 tools: [HTML, CSS, JavaScript]
 image: https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/project/wechat.PNG
 description: This is a WeChat Mini program for Oakville Immigration & Education Consulting Inc.
