@@ -20,7 +20,7 @@ In SLAM problem, each landmark measurements are independent when we know poses a
 - Mapping: estimation of landmark positions from known values of pose
 - SLAM: joint estimation of pose and landmark positions (localization AND mapping  )
 
-Robot Poses at Time t: <img src="https://latex.codecogs.com/gif.latex?s_"/>
+Robot Poses at Time t: <img src="https://latex.codecogs.com/gif.latex?s_t"/>
 
 Robot Controls at Time t: <img src="https://latex.codecogs.com/gif.latex?u_t"/>
 
