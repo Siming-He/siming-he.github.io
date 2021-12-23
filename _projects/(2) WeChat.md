@@ -1,11 +1,11 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: Canada Express Entry Scoring WeChat Mini Program
+tools: [HTML, CSS, JavaScript]
+image: https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/project/wechat.PNG
+description: This is a WeChat Mini program for Oakville Immigration & Education Consulting Inc. to assess and score clients' profile for skilled immigration.
 ---
 
-# The Movies Project
+# Canada Express Entry Scoring WeChat Mini Program
 
 The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
 
