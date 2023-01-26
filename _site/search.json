@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Notes on Computer Vision",
+      "category" : "",
+      "tags"     : "Computer Vision, Projective Geometry",
+      "url"      : "/blog/notes-on-computer-vision",
+      "date"     : "2022-09-02 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Summary of Active Semantic Goal Navigation Paper",
       "category" : "",
       "tags"     : "Robotics, Computer Vision",
