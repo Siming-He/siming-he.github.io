@@ -14,7 +14,8 @@ I am originally from <a href="https://en.wikipedia.org/wiki/Xi%27an" target="_bl
 <br><br>
 I love swimming and am national second-level athlete in China. I also play tennis and soccer, and I was in my high school soccer and tennis varsity teams. Beside sports, I enjoy cooking, especially Sichuan and Shaanxi Cuisine. I also like reading random books during my free time.
 <br><br>
-You can find my resume <a href="https://siming-he.github.io/assets/resume/Siming_Resume_01_22_2023.pdf" target="_blank">here</a>.
+
+<h3>You can find my resume <a href="https://siming-he.github.io/assets/resume/Siming_Resume_01_22_2023.pdf" target="_blank">here</a>.</h3>
 
 <!---
 <div class="row">
