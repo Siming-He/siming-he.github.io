@@ -7,4 +7,4 @@ description: This notes covers camera model, feature detection/matching, optical
 
 ---
 
-![Notes](https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/post/2022-9-2-notes-on-computer-vision/Computer_Vision.pdf "Notes")
+![Notes](https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/post/2022-9-2-notes-on-computer-vision/Computer_Vision.pdf)
