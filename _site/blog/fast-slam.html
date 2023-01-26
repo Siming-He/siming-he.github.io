@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Summary of FastSLAM Paper">
+  <meta property="og:description" content="In this article, I summarize the paper FastSLAM A Factored Solution to the Simultaneous Localization and Mapping Problem">
+
+  <title>Summary of FastSLAM Paper</title>
+  <meta name="description" content="In this article, I summarize the paper FastSLAM A Factored Solution to the Simultaneous Localization and Mapping Problem">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg py-0 navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Siming He</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="https://calendarintouch.herokuapp.com/"target="_blank"></a>
+
+      <a class="nav-item nav-link " href="/assets/old/(2)%20WeChat">Canada Express Entry Scoring WeChat Mini Program</a>
+
+      <a class="nav-item nav-link " href="https://github.com/Siming-He/Simple-Tower-Defense"target="_blank"></a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/researches/">Research</a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/coursework/">Coursework</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>Summary of FastSLAM Paper</b></h1>
+
+<p class="post-metadata text-muted">
+  28 July 2021 -  
+  <b>3 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#robotics">
+      <span class="tag badge badge-pill text-primary border border-primary">Robotics</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#computer-vision">
+      <span class="tag badge badge-pill text-primary border border-primary">Computer Vision</span>
+    </a>
+    </p>
+
+<p>Source: <a href="https://www.semanticscholar.org/paper/FastSLAM%3A-a-factored-solution-to-the-simultaneous-Montemerlo-Thrun/6410aacd3f02f12bf78a8b3e5e664d263cee2183">FastSLAM: A Factored Solution to the Simultaneous Localization and Mapping Problem</a></p>
+
+<p>FastSLAM uses a modified particle filter to recursively estimates the full posterior distribution over robot pose and landmark locations. Compared to EKF-based SLAM algorithm that is in <img src="https://latex.codecogs.com/gif.latex?O(K^2)" />, well-implemented FastSLAM can be in <img src="https://latex.codecogs.com/gif.latex?O(M\log(k))" />in which M is the number of particles in the particle filter.</p>
+
+<p>In SLAM problem, each landmark measurements are independent when we know poses and correspondence. FastSLAM decomposes SLAM problem into a robot localization problem and a collection of landmark estimation problems conditioned on robot pose estimation.</p>
+
+<h3 id="slam-problem-definition">SLAM Problem Definition</h3>
+
+<ul>
+  <li>Localization: estimation of pose from known landmarks</li>
+  <li>Navigation: estimation of pose, velocities, and other states from known landmarks</li>
+  <li>Mapping: estimation of landmark positions from known values of pose</li>
+  <li>SLAM: joint estimation of pose and landmark positions (localization AND mapping  )</li>
+</ul>
+
+<p>Robot Poses at Time t: <img src="https://latex.codecogs.com/gif.latex?s_t" /></p>
+
+<p>Robot Controls at Time t: <img src="https://latex.codecogs.com/gif.latex?u_t" /></p>
+
+<p>Landmark Measurements (range and bearing) at Time t: <img src="https://latex.codecogs.com/gif.latex?z_t" /></p>
+
+<p>Landmark Location in Space: <img src="https://latex.codecogs.com/gif.latex?\theta_k" />for K immobile landmarks (points in the plane <img src="https://latex.codecogs.com/gif.latex?(x,y)" />)</p>
+
+<p>Correspondence (Index of Landmark): <img src="https://latex.codecogs.com/gif.latex?n_t\in\{1,\cdots,K\}" /></p>
+
+<ul>
+  <li>
+    <p>Motion model</p>
+
+    <p><img src="https://latex.codecogs.com/gif.latex?p(s_t|u_t,s_{t-1})" /></p>
+  </li>
+  <li>
+    <p>Measurement model</p>
+
+    <p><img src="https://latex.codecogs.com/gif.latex?p(z_t|s_t,\theta,n_t)" />in which <img src="https://latex.codecogs.com/gif.latex?\theta=\{\theta_1,\theta_2,\cdots,\theta_k\}" /></p>
+  </li>
+</ul>
+
+<p>SLAM is the problem of determining the location of all landmarks <img src="https://latex.codecogs.com/gif.latex?\theta" />​ and robot poses <img src="https://latex.codecogs.com/gif.latex?s_t" />​ from landmark measuremnts and robot controls.</p>
+
+<p><img src="https://latex.codecogs.com/gif.latex?p(s^t,\theta|z^t,u^t)" />if correspondences are unknown</p>
+
+<p><img src="https://latex.codecogs.com/gif.latex?p(s^t,\theta|z^t,u^t,n^t)" />if correspondences are know (Superscript <img src="https://latex.codecogs.com/gif.latex?t" />means a set of variables from time 1 to <img src="https://latex.codecogs.com/gif.latex?t" />)</p>
+
+<h3 id="fastslam-with-known-correspondences">FastSLAM with Known Correspondences</h3>
+
+<ul>
+  <li>
+    <p>Conditional independence of the SLAM problem implies that:</p>
+
+    <p><img src="https://latex.codecogs.com/gif.latex?p(s^t,\theta|z^t,u^t,n^t)=p(s^t|z^t,u^t,n^t)\cdot p(\theta|s^t,z^t,u^t,n^t)=p(s^t|z^t,u^t,n^t)\cdot \prod_kp(\theta_k|s^t,z^t,u^t,n^t)" /></p>
+
+    <p>which is a localization problem and K mapping problems.</p>
+  </li>
+  <li>
+    <p>The localization problem is solved by a modified particle filter</p>
+  </li>
+  <li>
+    <p>The mapping problems are solved by Kalman filters</p>
+  </li>
+</ul>
+
+<h3 id="particle-filter-path-estimation">Particle Filter Path Estimation</h3>
+
+<p>Use of a filter that is similar to the Monte Carlo Localization algorithm. MCL is an application of particle filter to localization. At each point of time, the algorithm maintain a set of particles <img src="https://latex.codecogs.com/gif.latex?S_t" />. <img src="https://latex.codecogs.com/gif.latex?m^{th}" />particle <img src="https://latex.codecogs.com/gif.latex?s^{t,[m]}\in S_t" />is a guess of the robot’s path at time t:</p>
+
+<p><img src="https://latex.codecogs.com/gif.latex?S_t=\{s^{t,[m]}\}_m=\{s_1^{[m]},\cdots,s_t^{[m]}\}_m" /></p>
+
+<ol>
+  <li>
+    <p>Each particle in <img src="https://latex.codecogs.com/gif.latex?S_{t-1}" />is used to generate a guess of the robot’s pose at time t:</p>
+
+    <p><img src="https://latex.codecogs.com/gif.latex?s_t^{[m]}\thicksim p(s_t|u_t,s_{t-1}^{[m]})" /></p>
+  </li>
+  <li>
+    <p>Set of particles in <img src="https://latex.codecogs.com/gif.latex?S_{t-1}" />is distributed according to <img src="https://latex.codecogs.com/gif.latex?p(s^{t-1}|z^{t-1},u^{t-1},n^{t-1})" />. The new temporary set of particle is distributed according to <img src="https://latex.codecogs.com/gif.latex?p(s^{t}|z^{t-1},u^{t},n^{t-1})" />, the proposal distribution of particle filtering,</p>
+  </li>
+  <li>
+    <p>New set <img src="https://latex.codecogs.com/gif.latex?S_t" />is obtained by sampling from the temporary set. Each particle <img src="https://latex.codecogs.com/gif.latex?s^{t,[m]}" />is drawn with replacement with a probability proportional to importance factor <img src="https://latex.codecogs.com/gif.latex?w_t^{[m]}=\frac{\text{target distribution}}{\text{proposal distribution}}=\frac{p(s^{t,[m]}|z^{t},u^{t},n^{t})}{p(s^{t,[m]}|z^{t-1},u^{t},n^{t-1})}" /></p>
+  </li>
+</ol>
+
+<h3 id="landmark-location-estimation">Landmark Location Estimation</h3>
+
+<p>This estimation <img src="https://latex.codecogs.com/gif.latex?p(\theta_k|s^t,z^t,u^t,n^t)" />is conditioned on the robot pose, so the Kalman filters are attached to individual pose particles in <img src="https://latex.codecogs.com/gif.latex?S_t" />. Hence, the full posterior is:</p>
+
+<p><img src="https://latex.codecogs.com/gif.latex?S_t=\{s^{t,[m]},\mu^{K,[m]},\Sigma^{K,[m]}\}" />where <img src="https://latex.codecogs.com/gif.latex?\mu^{K,[m]},\Sigma^{K,[m]}" />are set of means and covariances of the Gaussian representing landmarks 1 to K attached to the m particle.</p>
+
+<p>When <img src="https://latex.codecogs.com/gif.latex?n_t=k" />,</p>
+
+<p><img src="https://latex.codecogs.com/gif.latex?p(\theta_k|s^t,z^t,u^t,n^t)=p(z_t|\theta_k,s_t,n_t)p(\theta_k|s^{t-1},z^{t-1},u^{t-1},n^{t-1})" />????</p>
+
+<p>When <img src="https://latex.codecogs.com/gif.latex?n_t\neq k" />,</p>
+
+<p><img src="https://latex.codecogs.com/gif.latex?p(\theta_k|s^t,z^t,u^t,n^t)=p(\theta_k|s^{t-1},z^{t-1},u^{t-1},n^{t-1})" /></p>
+
+<p>This is implemented using EKF. Compared to EKF-based SLAM, FastSLAM EKF only has a Gaussian of dimension two.</p>
+
+<h3 id="efficient-implementation">Efficient Implementation</h3>
+
+<p>By using tree structure, the resampling process can be faster and end up with <img src="https://latex.codecogs.com/gif.latex?O(M\log(K))" /></p>
+
+<h3 id="data-association">Data Association</h3>
+
+<p>Data association is done per particle based: <img src="https://latex.codecogs.com/gif.latex?n_t^{[m]}=argmax_{n_t}p(z_t|s_t^{[m]},n_t)" /></p>
+
+
+
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-2 text-center">
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:siminghe@seas.upenn.edu"
+       target="_blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-2x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/Siming-He"
+       target="_blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-2x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/siming-he"
+       target="_blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-2x"></i>
+    </a>
+
+</div>
+
+  <small class="text-muted mb-2">
+    Powered by <a href="https://github.com/YoussefRaafatNasry/portfolYOU" target="_blank">portfolYOU</a>
+  </small>
+
+  <!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  -->
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>

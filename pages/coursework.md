@@ -7,8 +7,9 @@ weight: 5
 
 # **University of Pennsylvania**
 ### Uncoordinated Dual Degree
-**Candidate for Bachelor of Science in Engineering (CSCI) - School of Engineering and Applied Science**<br>
-**Candidate for Bachelor of Science in Economics (Statistics) - Wharton School**
+**Candidate for Bachelor of Science in Engineering (Computer Science) - School of Engineering and Applied Science**<br>
+**Candidate for Bachelor of Science in Economics (Statistics) - Wharton School**<br><br>
+**<i>Courses with number 500 and above are graduate-level courses</i>**
 
 <div class="row">
 {% include coursework/timeline.html %}

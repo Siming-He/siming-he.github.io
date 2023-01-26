@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Summary of A Perception-Driven Autonomous Urban Vehicle">
+  <meta property="og:description" content="In this article, I summarize the paper A Perception-Driven Autonomous Urban Vehicle.">
+
+  <title>Summary of A Perception-Driven Autonomous Urban Vehicle</title>
+  <meta name="description" content="In this article, I summarize the paper A Perception-Driven Autonomous Urban Vehicle.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg py-0 navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Siming He</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="https://calendarintouch.herokuapp.com/"target="_blank"></a>
+
+      <a class="nav-item nav-link " href="/assets/old/(2)%20WeChat">Canada Express Entry Scoring WeChat Mini Program</a>
+
+      <a class="nav-item nav-link " href="https://github.com/Siming-He/Simple-Tower-Defense"target="_blank"></a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/researches/">Research</a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/coursework/">Coursework</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>Summary of A Perception-Driven Autonomous Urban Vehicle</b></h1>
+
+<p class="post-metadata text-muted">
+  21 July 2021 -  
+  <b>2 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#robotics">
+      <span class="tag badge badge-pill text-primary border border-primary">Robotics</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#computer-vision">
+      <span class="tag badge badge-pill text-primary border border-primary">Computer Vision</span>
+    </a>
+    </p>
+
+<p>Source: <a href="https://link.springer.com/chapter/10.1007/978-3-642-03991-1_5">A Perception-Driven Autonomous Urban Vehicle</a></p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>The paper discussed a designed driverless vehicle for DARPA Urban Challenge. To handle the challenge, the vehicle needs to be able to drive itself in complex real-life situations while obey the road rules. The team used many sensors of different types. The redundancy of sensors increases the need for power supplies. On another side, it makes sure the robustness of the system when any sensor fails. There are three types of sensor used: lidar (1 Velodyne and 12 Sick), radar (15 Delphi), and vision (5 Point Grey Firefly MV Cameras). The team built a low-latency, high-throughput communications framework (Lightweight Communications and Marshaling) for the communication among all the senders and receivers as well as a visualization of sensory data for development and debugging of algorithms.</p>
+
+<p>The team used a local frame in addition to GPS so that the vehicle can know its position when GPS coverage is poor. Lidars are used for near-field obstacle detection while radars are used for moving objects in the far field. Velodyne lidar is more powerful and could do most perception jobs for near-field obstacles. However, the Sick lidars fill blind spots of Velodyne, provide fault tolerance, and help detecting fast-moving obstacles (Sick Lidar is 75Hz while Velodyne is 15Hz). For Sick lidars, each area is covered by multiple Sick lidars so that the reliability of detection is higher. For Velodyne lidar, since it produces a million hits per second and requires a lot of computation, the team did data reduction by grouping a closed set of hits as “chunks”. Then, chunks are grouped into groups of connect components using Union-Find algorithm. At each time step, a new group will be associated with a group in previous time step, and Kalman filter is used to estimate the velocity of associated groups. However, since the time step is short, the system cannot estimate velocity of slow-moving obstables. Radars are used to detect moving objects outside detecting range of lidars. In addition, cameras are used for lane finding including road paint detection and lane centerline estimation.</p>
+
+<p>For planning and control algorithms, the team separates the system into navigator and motion planner. Navigator provides goal point of the vehicle while motion planner controls vehicle to reach the point. Perception data is rendered into a Drivability Map which includes infeasible regions, high-cost regions, and restricted regions. RRT algorithm with biased sampling is used for stable path planning in real-time applications.</p>
+
+
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-2 text-center">
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:siminghe@seas.upenn.edu"
+       target="_blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-2x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/Siming-He"
+       target="_blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-2x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/siming-he"
+       target="_blank"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-2x"></i>
+    </a>
+
+</div>
+
+  <small class="text-muted mb-2">
+    Powered by <a href="https://github.com/YoussefRaafatNasry/portfolYOU" target="_blank">portfolYOU</a>
+  </small>
+
+  <!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  -->
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>
