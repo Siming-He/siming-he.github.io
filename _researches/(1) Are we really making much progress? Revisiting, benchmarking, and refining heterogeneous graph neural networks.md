@@ -1,8 +1,6 @@
 ---
 name: Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks
 tools: [Graph Neural Network]
-description: Revisiting, benchmarking, and refining Heterogeneous Graph Neural Networks.
-
 ---
 
 # Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks

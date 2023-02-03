@@ -1,8 +1,7 @@
 ---
 name: Sign Language Translation
 tools: [LSTM, OpenPose]
-image: https://raw.githubusercontent.com/Siming-He/siming-he.github.io/master/assets/project/sign.png
-description: This is a translator that adopts OpenPose and translates sign language videos to text based on an LSTM network.
+description: Used OpenPose and implemented an LSTM network that translates sign language videos to text.
 ---
 
 # Sign Language Translation App

@@ -1,8 +1,6 @@
 ---
 name: A robotic system for automated genetic manipulation and analysis of Caenorhabditis elegans on agar media
 tools: [Computer Vision, C++, Bio Engineering]
-description: A robotic system capable of performing complex genetic manipulations and other tasks by imaging, phenotyping, and selectively transferring C. elegans on standard agar media.
-
 ---
 
 # Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks
