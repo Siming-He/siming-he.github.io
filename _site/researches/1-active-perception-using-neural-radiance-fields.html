@@ -20,11 +20,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Active Simultaneous Localization and Mapping in Unstructured Environment with a Quadrotor">
-  <meta property="og:description" content="This paper proposes an active SLAM system that allows an agent to explore its surroundings efficiently based on information theoretic criterion.">
+  <meta property="og:title" content="(1) active perception using neural radiance fields">
+  <meta property="og:description" content="Siming He, Christopher D. Hsu, Dexter Ong, Yifei Simon Shao, Pratik Chaudhari">
 
-  <title>Active Simultaneous Localization and Mapping in Unstructured Environment with a Quadrotor</title>
-  <meta name="description" content="This paper proposes an active SLAM system that allows an agent to explore its surroundings efficiently based on information theoretic criterion.">
+  <title>(1) active perception using neural radiance fields</title>
+  <meta name="description" content="Siming He, Christopher D. Hsu, Dexter Ong, Yifei Simon Shao, Pratik Chaudhari">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -59,7 +59,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
 
-      <a class="nav-item nav-link " href="/researches/">Research</a>
+      <a class="nav-item nav-link active" href="/researches/">Research</a>
 
       <a class="nav-item nav-link " href="/teaching/">Teaching</a>
 
@@ -75,7 +75,18 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  
+  <h1 id="active-perception-using-neural-radiance-fields">Active Perception using Neural Radiance Fields</h1>
+
+<p><b>Siming He</b>, Christopher D. Hsu, Dexter Ong, Yifei Simon Shao, Pratik Chaudhari<br /></p>
+
+<p><a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/grasp-lyrl/Active-Perception-using-Neural-Radiance-Fields" target="_blank">
+  Code
+</a>
+<!-- <a class="m-1 btn btn-outline-primary btn-2 " href="https://www.biorxiv.org/content/10.1101/2022.11.18.517134v1.abstract" target="_blank">
+  Paper
+</a> --></p>
+
+<p><b>Abstract: </b> We study active perception from first principles to argue that an autonomous agent performing active perception should maximize the mutual information that past observations posses about future ones. Doing so requires (a) a representation of the scene that summarizes past observations and the ability to update this representation to incorporate new observations (state estimation and mapping), (b) the ability to synthesize new observations of the scene (a generative model), and (c) the ability to select control trajectories that maximize predictive information (planning). This motivates a neural radiance field (NeRF)-like representation which captures photometric, geometric and semantic properties of the scene grounded. This representation is well-suited to synthesizing new observations from different viewpoints. And thereby, a sampling-based planner can be used to calculate the predictive information from synthetic observations along dynamically-feasible trajectories. We use active perception for exploring cluttered indoor environments and employ a notion of semantic uncertainty to check for the successful completion of an exploration task. We demonstrate these ideas via simulation in realistic 3D indoor environments. <br /></p>
 
 </div>
   </main>

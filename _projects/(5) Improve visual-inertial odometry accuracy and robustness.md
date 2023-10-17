@@ -1,6 +1,6 @@
 ---
 name: Improve visual-inertial odometry accuracy and robustness
-tools: [VIO, State Estimation, ROS]
+tools: [State Estimation, ROS]
 description: Tested Vins-Mono, Vins-Fusion, and ORB-SLAM on a drone platform and improved the VIO odometry accuracy and robustness.
 ---
 

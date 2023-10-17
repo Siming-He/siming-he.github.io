@@ -1,6 +1,6 @@
 ---
 name: Sign Language Translation
-tools: [LSTM, OpenPose]
+tools: [Deep Learning, Computer Vision]
 description: Used OpenPose and implemented an LSTM network that translates sign language videos to text.
 ---
 
