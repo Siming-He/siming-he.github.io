@@ -92,7 +92,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/forest_d.png
+accent_image:          /assets/img/forest_d_2.png
 accent_color:          rgb(158,174,16)
 
 # This is used for the `theme-color` meta tag,
