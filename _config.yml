@@ -28,7 +28,11 @@ description:           >
   Siming's Personal Website
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Where Technology Meets Wilderness.
+# Where Technology Meets Wilderness.
+# Engineering Tomorrow's Forest Guardians.
+# Blending Robotics with Nature’s Harmony.
+# Innovation Rooted in Nature.
 
 # A list of keywords for your blog
 keywords:              []
@@ -36,14 +40,16 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/header_c.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Siming He
   email:               siminghe@seas.upenn.edu
-  picture:             /assets/img/header.jpg
+  # picture:             /assets/img/header.jpg
+  # about: |
+  #   Hi, I'm Florian or @qwtel...
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -57,21 +63,25 @@ menu:
     url:               /
   - title:             Research
     url:               /#research
-  - title:             Projects
-    url:               /#projects
+  - title:             Teaching
+    url:               /#teaching
+  - title:             Community Involvement
+    url:               /#community-involvement
+  - title:             Curriculum Vitae
+    url:               /assets/cv.pdf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  - title:             Google Scholar
+    url:               https://scholar.google.com/citations?user=jTluf5cAAAAJ&hl=en
+  - title:             Github
+    url:               https://github.com/Siming-He 
+  - title:             CV
+    url:               /assets/cv.pdf
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2024 Siming He. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
