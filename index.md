@@ -6,9 +6,11 @@ title: About
 <!--author-->
 
 # Research
-My current focus is on building ***robot scientists*** that can autonomously operate in unstructured forest environments and actively collect meaningful observations on a large-scale, to generate insights into the health and sustainability of forest ecosystems. 
-These robot scientists need to be ***analytic perceivers*** who extract insights from noisy uncurated data in the wild. They also need to be ***active perceivers*** who make adaptive decisions to gather necessary information even under distributional shifts and rare events. 
-I develop ***principles and practices*** for perception and active perception, grounded in underlying theories such as information theory, game theory, and learning theory. 
+My current focus is on building ***robot scientists*** that could autonomously operate in unstructured forest environments and actively collect meaningful observations on a large-scale. 
+They, in collaboration with human scientists, could generate insights into ***the health and sustainability of forest ecosystems***. 
+These robot scientists need to be ***analytic perceivers*** who extract insights from noisy uncurated data in the wild. 
+They also need to be ***active perceivers*** who make adaptive decisions to gather necessary information even under distributional shifts and rare events. 
+I develop ***principles and practices*** for perception and active perception, grounded in underlying theories such as information theory, game theory, and statistics. 
 
 ## Publications
 {% include research.html %}
