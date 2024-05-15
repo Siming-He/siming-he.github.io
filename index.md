@@ -49,7 +49,7 @@ Assisted the development of the course "Mathematical Foundations for Machine Lea
 - Counseled my residents on various aspects of academic and residential life and supporting them through the challenges of first-year college life.
 - Hosted lunch and dinner sessions where faculty members join residents for conversations spanning academic, research, and daily life topics.
 - Organized information sessions to connect residents with the abundant research resources on campus.
-- Recipient of *Excellence in Academic & Intellectual Life* award.
+- Recipient of *Excellence in Academic & Intellectual Life Award*.
 
 ## Rykert After School Science Program
 *Ridley College (September 2018 - May 2020)*
