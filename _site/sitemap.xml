@@ -4,6 +4,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/misc/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/licenses/Apache-2.0/</loc>
 </url>
 <url>

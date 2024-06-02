@@ -66,3 +66,6 @@ I aspire to alleviate educational inequality by organizing workshops and activit
 *Ridley College (September 2018 - May 2020)*
 - Organized the program to engage underprivileged middle school students in science experiments in a laboratory environment often beyond their regular access.
 - Led the development of intriguing experiments, including building electric wheels, building water rockets, and observing specimens under microscopes. -->
+
+# Misc
+[What I enjoy during my leisure time](/misc)
