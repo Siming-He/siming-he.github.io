@@ -6,7 +6,7 @@ title: About
 <!--author-->
 
 # Research
-My current focus is on building ***robot scientists*** that could autonomously operate in unstructured forest environments and actively collect meaningful observations on a large-scale. 
+My current focus is on building ***robot scientists*** that could autonomously operate in unstructured forest environments and actively analyze meaningful observations on a large-scale. 
 They, in collaboration with human scientists, could generate insights into ***the health and sustainability of forest ecosystems***. 
 These robot scientists need to be ***analytic perceivers*** that can extract scientific insights from noisy uncurated data in the wild. 
 They also need to be ***active perceivers*** that can guarantee the collection of necessary information for tasks, even under distributional shifts and rare events. 
@@ -16,9 +16,13 @@ I develop ***principles and practices*** for perception and active perception, g
 {% include research.html %}
 
 ## Projects
+Besides the publications, I worked on several exciting projects, including developing hardware & software for efficient data collection, active SLAM on customized [Duckiedrone](https://duckietown.com/), conformal prediction for semantic segmentation, robust transfer learning, and stereo visual SLAM.
+
 {% include project1.html %}
 
 # Teaching
+I aspire to be an educator who spreads knowledge and fosters curiosity, growth, and equality. Beyond my regular responsibilities of holding recitations and office hours, as well as creating and grading homework problems, I initiated several efforts to foster a vibrant and valuable learning experience.
+
 {% include teaching.html %}
 
 <!-- ## Course Development Assistant
@@ -32,6 +36,9 @@ Assisted the development of the course "Mathematical Foundations for Machine Lea
 - Developed recitation materials on machine learning concepts, information theory, and uncertainty quantification. Held recitations and office hours. Created exam banks. -->
 
 # Community Involvement
+I promote equity in my communities by actively mentoring others, including student researchers with limited experience, underrepresented K-12 students, and first-year undergraduate students. 
+I aspire to alleviate educational inequality by organizing workshops and activities both within the school and in the local community.
+
 {% include community.html %}
 
 <!-- ## [Peer Research Advisor](https://curf.upenn.edu/undergraduate-research/research-peer-advisors)
