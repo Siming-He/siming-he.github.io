@@ -11,11 +11,11 @@ author1:
     I am an undergraduate student at the University of Pennsylvania, pursuing an Engineering degree in Computer Science with a minor in Mathematics and a Wharton degree in Statistics. 
     I am also an accelerated master in Robotics at the GRASP Laboratory.
     I am fortunate to be advised by <a href="https://pratikac.github.io/" target="_blank">Dr. Pratik Chaudhari</a> and <a href="https://www.kumarrobotics.org/" target="_blank">Dr. Vijay Kumar</a>.
-
-    My research interests lie in *Robotics + Science*. 
+    
     I envision a future where robots embark on scientific discovery in the wild: from the heart of the Amazon rainforest to the depths of the sea, and across distant planets.
     Those robots would extend our perception and action in the physical world for unprecedented scientific advancements.
     To achieve this vision, I would like to develop the mathematical principles of robotics and embody these principles into efficient algorithms.
+    My current focus is on building *robot scientists* that could autonomously operate in unstructured forest environments and actively analyze meaningful observations on a large-scale.
     See <a href="#research">Research</a>.
 
     I am equally passionate about teaching and actively engaging with the community to promote equity in engineering education and research. 
