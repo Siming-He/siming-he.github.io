@@ -16,7 +16,7 @@ I develop ***principles and practices*** for perception and active perception, g
 {% include research.html %}
 
 ## Projects
-Besides the publications, I worked on several exciting projects, including developing hardware & software for efficient data collection, active SLAM on customized [Duckiedrone](https://duckietown.com/), conformal prediction for semantic segmentation, robust transfer learning, and stereo visual SLAM.
+Besides the publications, I worked on several side projects, including developing hardware & software for efficient data collection, active SLAM on customized [Duckiedrone](https://duckietown.com/), conformal prediction for semantic segmentation, robust transfer learning, and stereo visual SLAM.
 
 {% include project1.html %}
 
