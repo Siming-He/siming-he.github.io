@@ -14,7 +14,7 @@ I do so by developing algorithms grounded in probability theory, information the
 {% include research.html %}
 
 ## Projects
-Besides the publications, I worked on several side projects, including (1) <b>Mapping</b>: Semantic Gaussian Splatting, Large Scale NeRF, Active Visual SLAM, Stereo Visual SLAM; (2) <b>Navigation</b>: Bio-inspired Navigation; (3) <b>Learning</b>: Conformal Prediction, Robust Transfer Learning.
+I have worked on a wide range of projects, including (1) <b>Mapping</b>: Semantic Gaussian Splatting, Large Scale NeRF, Active Visual SLAM, Stereo Visual SLAM; (2) <b>Navigation</b>: Bio-inspired Navigation; (3) <b>Learning</b>: Conformal Prediction, Robust Transfer Learning.
 
 {% include project1.html %}
 
