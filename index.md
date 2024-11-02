@@ -6,11 +6,9 @@ title: About
 <!--author-->
 
 # Research
-My current focus is on building ***robot scientists*** that could autonomously operate in unstructured forest environments and actively analyze meaningful observations on a large-scale. 
-They, in collaboration with human scientists, could generate insights into ***the health and sustainability of forest ecosystems***. 
-These robot scientists need to be ***analytic perceivers*** that can extract scientific insights from noisy uncurated data in the wild. 
-They also need to be ***active perceivers*** that can guarantee the collection of necessary information for tasks, even under distributional shifts and rare events. 
-I develop ***principles and practices*** for perception and active perception, grounded in underlying theories such as information theory, game theory, and statistics. 
+I enable robots to become ***analytic perceivers*** that can extract scientific insights from noisy uncurated data in the wild. 
+I enable robots to become ***active perceivers*** that can collect necessary information from an initially unknown environment for diverse tasks. 
+I do so by developing algorithms grounded in probability theory, information theory, and game theory. 
 
 ## Publications
 {% include research.html %}
@@ -21,7 +19,7 @@ Besides the publications, I worked on several side projects, including developin
 {% include project1.html %}
 
 # Teaching
-I aspire to be an educator who spreads knowledge and fosters curiosity, growth, and equality. Beyond my regular responsibilities of holding recitations and office hours, as well as creating and grading homework problems, I initiated several efforts to foster a vibrant and valuable learning experience.
+I aspire to be an educator who spreads knowledge and fosters curiosity, growth, and equality. Beyond my regular responsibilities of holding recitations and office hours, as well as creating and grading homework problems, I initiated several efforts to foster a vibrant and inclusive learning experience.
 
 {% include teaching.html %}
 
@@ -36,8 +34,8 @@ Assisted the development of the course "Mathematical Foundations for Machine Lea
 - Developed recitation materials on machine learning concepts, information theory, and uncertainty quantification. Held recitations and office hours. Created exam banks. -->
 
 # Community Involvement
-I promote equity in my communities by actively mentoring others, including student researchers with limited experience, underrepresented K-12 students, and first-year undergraduate students. 
-I aspire to alleviate educational inequality by organizing workshops and activities both within the school and in the local community.
+I promote equity and diversity in my communities by actively mentoring others, including underrepresented K-12 students and undergraduate researchers. 
+I aspire to actively alleviate educational inequality both within the school and in the local community.
 
 {% include community.html %}
 
@@ -67,5 +65,5 @@ I aspire to alleviate educational inequality by organizing workshops and activit
 - Organized the program to engage underprivileged middle school students in science experiments in a laboratory environment often beyond their regular access.
 - Led the development of intriguing experiments, including building electric wheels, building water rockets, and observing specimens under microscopes. -->
 
-# Misc
-[What I enjoy during my leisure time](/misc)
+<!-- # Misc
+[What I enjoy during my leisure time](/misc) -->

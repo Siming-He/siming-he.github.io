@@ -9,13 +9,13 @@ author1:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     I am an undergraduate student at the University of Pennsylvania, pursuing an Engineering degree in Computer Science with a minor in Mathematics and a Wharton degree in Statistics. 
-    I am also an accelerated master student in Robotics at the GRASP Laboratory.
-    I am fortunate to be advised by <a href="https://pratikac.github.io/" target="_blank">Prof. Pratik Chaudhari</a>, <a href="https://www.kumarrobotics.org/" target="_blank">Dean Vijay Kumar</a>, and <a href="https://www.santoshvenkatesh.com/" target="_blank">Prof. Santosh Venkatesh</a>.
+    I am also an accelerated master student in Robotics at the GRASP Laboratory and a summer researcher at ETH Zürich.
+    I am fortunate to be advised by <a href="https://pratikac.github.io/" target="_blank">Prof. Pratik Chaudhari</a>, <a href="https://www.kumarrobotics.org/" target="_blank">Dean Vijay Kumar</a>, <a href="https://www.santoshvenkatesh.com/" target="_blank">Prof. Santosh Venkatesh</a>, <a href="https://censi.science/" target="_blank">Dr. Andrea Censi</a>, and <a href="https://idsc.ethz.ch/research-frazzoli.html" target="_blank">Prof. Emilio Frazzoli</a>.
     
-    I envision a future where robots embark on scientific discovery in the wild: from the heart of the Amazon rainforest to the depths of the sea, and across distant planets.
-    Those robots would extend our perception and action in the physical world for unprecedented scientific advancements.
-    To achieve this vision, I would like to develop the mathematical principles of adaptive and autonomous systems and embody these principles into efficient algorithms.
-    My current focus is on building *robotic forestry scientists* that could autonomously operate in unstructured forest environments and actively analyze meaningful observations on a large-scale.
+    I envision a future where robots significantly advance scientific discovery in natural environments, such as rainforests, by monitoring and modeling complex ecosystems to understand their dynamics on a scale beyond human capability. 
+    This vision is compelling because a deep understanding of ecosystems is foundational to protecting them from the escalating threats posed by human activities and climate change.
+    To achieve this vision, <b>I would like to develop the mathematical principles of adaptive and autonomous systems and embody these principles into efficient algorithms</b>.
+    My current research enables robots to actively perceive useful information from initially unknown environment and model complex environments at large scale.
     See <a href="#research">Research</a>.
 
     I am equally passionate about teaching and actively engaging with the community to promote equity in engineering education and research. 
