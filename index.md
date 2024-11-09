@@ -9,6 +9,8 @@ title: About
 I enable robots to become ***analytic perceivers*** that can extract scientific insights from noisy uncurated data in the wild. 
 I enable robots to become ***active perceivers*** that can collect necessary information from an initially unknown environment for diverse tasks. 
 I do so by developing algorithms grounded in probability theory, information theory, and game theory. 
+I am excited about the application of my research in monitoring and modeling complex ecosystems beyond human capability, 
+because (1) a deep understanding of ecosystems is foundational to protecting them from the escalating threats, (2) unstructured wild environments are especially chanllenging for robotics.
 
 ## Publications
 {% include research.html %}
